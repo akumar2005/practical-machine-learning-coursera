@@ -47,7 +47,7 @@ qplot(data$X,data$user_name,colour=data$classe,xlab="X",ylab="user")
 ---
 
 ## Data pre-processing 
-As shown in the graph on previous page, 'X' is just a sequence id for each data row and might cause severe bias. (In my test includes this predictor, it has dominant varImp() and resuult in my prediction on 20 dataset are all 'A' because they have small problem_id as 1-20 ) 
+As shown in the graph on previous page, 'X' is just a sequence id for each data row and might cause severe bias. (In my test includes this predictor, it has dominant varImp() and result in my prediction on 20 dataset are all 'A' because they have small problem_id as 1-20 ) 
 ```{r, results='hide'}
 data <- data[,-1] # remove 'X' column which is in the first position 
 ```
