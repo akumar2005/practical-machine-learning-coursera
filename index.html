@@ -109,7 +109,7 @@ dim(data) # the column name and order in pml-testing.csv is same with pml-traini
     <h2>Data pre-processing</h2>
   </hgroup>
   <article data-timings="">
-    <p>As shown in the graph on previous page, &#39;X&#39; is just a sequence id for each data row and might cause severe bias. (In my test includes this predictor, it has dominant varImp() and resuult in my prediction on 20 dataset are all &#39;A&#39; because they have small problem_id as 1-20 ) </p>
+    <p>As shown in the graph on previous page, &#39;X&#39; is just a sequence id for each data row and might cause severe bias. (In my test includes this predictor, it has dominant varImp() and result in my prediction on 20 dataset are all &#39;A&#39; because they have small problem_id as 1-20 ) </p>
 
 <pre><code class="r">data &lt;- data[,-1] # remove &#39;X&#39; column which is in the first position 
 </code></pre>
